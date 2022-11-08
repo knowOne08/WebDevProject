@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <html>
+    <html>    
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+          <!-- <script TYPE="text/javascript"> function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); return false; } </script> -->
           <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+          <script>          function myFunction() {
+            alert("The site is betterlooking on desktop view !!");
+          }</script>
+
+
+          </head>
           <header class="text-slate-400 bg-gray-900 body-font bg-black ">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-black">
                 
@@ -28,7 +34,7 @@
             </div>
           </header>
         </head>
-    <body >
+    <body onload="myFunction()">
         <section class="text-slate-400 bg-gray-900 body-font bg-black">
             <div class="container px-5 py-24 mx-auto flex flex-col">
               <div class="lg:w-4/6 mx-auto">
