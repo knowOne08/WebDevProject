@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <html>
+    <html>    
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+          <!-- <script TYPE="text/javascript"> function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); return false; } </script> -->
           <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+          <script>          
+          function myFunction() {
+            // alert("The site is betterlooking on desktop view !!");
+          }</script>
+
+
+          </head>
           <header class="text-slate-400 bg-gray-900 body-font bg-black ">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-black">
                 
@@ -28,7 +35,7 @@
             </div>
           </header>
         </head>
-    <body >
+    <body onload="myFunction()">
         <section class="text-slate-400 bg-gray-900 body-font bg-black">
             <div class="container px-5 py-24 mx-auto flex flex-col">
               <div class="lg:w-4/6 mx-auto">
@@ -40,9 +47,9 @@
                     <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-slate-600">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                        <circle cx="14" cy="8" r="10"></circle>
+                        <circle cx="15" cy="9" r="15"> </circle>
                       </svg>
-                      <img src="ImgSource\cover.jpg"/><br>
+                      <img src="./ImgSource/sticker.webp"/>
                     </div>
                     <div class="flex flex-col items-center text-center justify-center">
                       <h2 class="font-medium title-font mt-4 text-white text-lg"><br>Yash Darji</h2>
